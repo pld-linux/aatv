@@ -1,12 +1,12 @@
 Summary:	TV on text console
-Summary(pl):	TV na terminalu
+Summary(pl):	TV na terminalu tekstowym
 Name:		aatv
 Version:	0.3
 Release:	1
 Epoch:		0
 License:	GPL
 Group:		Applications/Multimedia
-Source0:	http://dl.sourceforge.net/sourceforge/aatv/%{name}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/aatv/%{name}-%{version}.tgz
 # Source0-md5:	de5ab31c3744e612ed764968dc0c759e
 URL:		http://aatv.sourceforge.net/
 BuildRequires:	aalib-devel
@@ -24,6 +24,7 @@ aatv to prosty program do ogl±dania telewizji na tekstowej konsoli.
 %setup -q -n %{name}
 
 %build
+# aclocal alone???
 %{__aclocal}
 cp -f /usr/share/automake/config.sub .
 %configure2_13
