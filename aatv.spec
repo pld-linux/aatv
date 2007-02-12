@@ -1,5 +1,5 @@
 Summary:	TV on text console
-Summary(pl):	TV na terminalu tekstowym
+Summary(pl.UTF-8):   TV na terminalu tekstowym
 Name:		aatv
 Version:	0.3
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 aatv is a simple program to watch TV in a text-based console.
 
-%description -l pl
-aatv to prosty program do ogl±dania telewizji na tekstowej konsoli.
+%description -l pl.UTF-8
+aatv to prosty program do oglÄ…dania telewizji na tekstowej konsoli.
 
 %prep
 %setup -q -n %{name}
