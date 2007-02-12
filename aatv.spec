@@ -1,5 +1,5 @@
 Summary:	TV on text console
-Summary(pl.UTF-8):   TV na terminalu tekstowym
+Summary(pl.UTF-8):	TV na terminalu tekstowym
 Name:		aatv
 Version:	0.3
 Release:	1
